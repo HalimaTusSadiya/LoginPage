@@ -1,0 +1,44 @@
+body{
+background-color: #364150;
+font-family: monospace;
+}
+.container{
+    margin-top: 60px;
+}
+.form-area{
+    margin-top: 30px;
+    box-shadow: #1d2229 0px 6px 10px 0px,#2e3742 0px 0px 0px 1px;
+    /* box-shadow:  #888888 0px 5px 15px; */
+}
+.login_little{
+    text-align: center;
+    color: #E75849;
+    font-weight: bold;
+}
+.form-control{
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+input[type=email]{
+    border: none;
+    border-bottom: 1px solid white;
+    border-radius: 0px;
+}
+input[type=password]{
+    border: none;
+    border-bottom: 1px solid white;
+    border-radius: 0px;
+}
+.login-button{
+    text-align: right;
+    margin-bottom: 20px;
+    padding: 10px
+}
+.form-button{
+   background-color: #E75849;
+   color: white;
+   font-weight: bold;
+   border-radius: 5px;
+}
